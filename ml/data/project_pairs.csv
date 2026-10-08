@@ -1,0 +1,16 @@
+project_a_id,project_b_id,label,relationship_type,notes
+PRJ-001,PRJ-002,1,HARD_POSITIVE,Both target retinal fundus image classification using deep neural networks despite different vocabulary
+PRJ-003,PRJ-004,1,HARD_POSITIVE,Both target autonomous driving object perception and vehicle detection with spatial models
+PRJ-005,PRJ-006,1,HARD_POSITIVE,Both target plant leaf infection diagnosis from photos using computer vision
+PRJ-001,PRJ-005,0,HARD_NEGATIVE,Both use Python and CNNs for medical/biological image analysis but target completely different domains (human eye vs plant leaf)
+PRJ-003,PRJ-006,0,HARD_NEGATIVE,Both use PyTorch and computer vision but target autonomous vehicles vs smart farming
+PRJ-001,PRJ-009,0,HARD_NEGATIVE,Both use Python and computer vision but target diabetic retinopathy vs satellite environmental monitoring
+PRJ-008,PRJ-010,0,HARD_NEGATIVE,Both use Python and anomaly detection but target financial fraud vs network cybersecurity intrusions
+PRJ-001,PRJ-007,0,UNRELATED,Diabetic retinopathy AI vs Blockchain electronic health record exchange
+PRJ-002,PRJ-008,0,UNRELATED,Ophthalmology deep learning vs Financial fraud detection
+PRJ-003,PRJ-007,0,UNRELATED,Autonomous driving perception vs Blockchain electronic health records
+PRJ-004,PRJ-010,0,UNRELATED,Autonomous road detection vs Cybersecurity network intrusion detection
+PRJ-005,PRJ-007,0,UNRELATED,Plant disease detection vs Blockchain electronic health records
+PRJ-006,PRJ-008,0,UNRELATED,Agricultural crop infections vs Financial transaction fraud detection
+PRJ-007,PRJ-009,0,UNRELATED,Blockchain medical records vs Satellite image segmentation
+PRJ-007,PRJ-010,0,UNRELATED,Blockchain smart contracts vs Cybersecurity autoencoders

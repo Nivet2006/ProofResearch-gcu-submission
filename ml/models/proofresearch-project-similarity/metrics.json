@@ -1,0 +1,29 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_version": "proofresearch-semantic-v1",
+  "dataset_size_projects": 10,
+  "dataset_size_pairs": 15,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "confusion_matrix": [
+    [
+      12,
+      0
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "feature_names": [
+    "full_project_cosine",
+    "title_cosine",
+    "problem_cosine",
+    "methodology_cosine",
+    "technology_cosine",
+    "domain_cosine"
+  ]
+}
