@@ -1,0 +1,18 @@
+{
+  "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "fine_tuned_model": "proofresearch-semantic-v1",
+  "embedding_dimension": 384,
+  "scoring_version": "semantic-score-v1",
+  "similarity_thresholds": {
+    "LOW": { "min": 0, "max": 39 },
+    "MODERATE": { "min": 40, "max": 69 },
+    "HIGH": { "min": 70, "max": 84 },
+    "VERY_HIGH": { "min": 85, "max": 100 }
+  },
+  "training_metadata": {
+    "dataset": "ml/data/project_pairs.csv",
+    "leakage_prevention": "split_by_project_id",
+    "hard_negatives": true,
+    "hard_positives": true
+  }
+}
